@@ -1,0 +1,82 @@
+/*-----Prevents fonts iPhone from resizing in landscape mode -----*/
+html {-webkit-text-size-adjust: none; 
+/*----------- apply a natural box layout model to all elements. meant to support really old browsers --------------*/
+* {box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;  }
+
+}
+
+body {
+        font-family: "Mukta", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal; 
+}
+
+/*-----HEADER -----*/
+#headerWrapper {
+	background-color: #FFC0BE;
+}
+header {
+	padding: 1em 2% .5em 2%;
+}
+
+header h1 {
+	font-size: 2.1em;
+	color: #878E88;
+}
+header h2 {
+	font-size: .9em;
+	font-weight: 300;
+	color: #878E88;
+	margin-top: .75em;
+}
+
+
+/* NAV STUFF */
+#navWrapper {
+    background-color: #FAF3DD;
+}
+
+nav ul {
+    padding: 1em 0;
+}
+
+nav ul li {
+    margin: 0 2%;
+    width: 46%;
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    text-align:center;
+    font-weight: 700;
+    text-decoration: none;
+    color: #5E6472;
+    background-color: rgba(0,0,0,0.05);
+    margin: .2em 0;
+    padding: .6em 0;
+    border-radius: 16px;
+}
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.20);
+}
+
+/*----- FOOTER -----*/
+#footerWrapper {background-color: #FFEBE7;}
+footer {
+	clear: both;
+	font-size: .7em;
+	color: #878E88;
+	text-align: center;
+	padding: .6em;
+}
+footer a {color: #fff;}
+
+/* ----- OTHER STUFF ----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
