@@ -23,8 +23,8 @@
 <!-- Latest version of jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-<!-- SCRIPT TO MAKE PHONE NAVIGATION WORK -->
-<script src="js/hideMenu.js"></script>
+<!-- LOAD THE SCRIPT FOR THE OPTION?SELECT -->
+<script src="js/optionSelectMenu.js"></script>
 
 <!-- ***** SCRIPT TO HELP OLD IE UNDERSTAND HTML5 AND MEDIA QUERIES -->
 <!--[if lt IE 9]>
@@ -48,15 +48,20 @@
 
     <div id="navWrapper">
         <nav>
-            <button id="showPhoneNav">Show Navigation</button>
-            <ul class="clearfix" id="myNav">
+            <ul class="clearfix">
                 <li class="active"><a href="index.html">SPECIALS</a></li>
-                <li><a href="flavors.html">FLAVORS</a></li>
+                <li><a href="flavors.html">FLAVORS</a>
+                <ul>
+                    <li><a href="flavor.html#straw">Strawberry</a></li>
+                    <li><a href="flavor.html#orange">Orange</a></li>
+                    <li><a href="flavor.html#lemon">Lemon</a></li>
+                    </ul>
+                </li>
                 <li><a href="schedule.html">SCHEDULE A PARTY</a></li>
                 <li><a href="store.html">CONTACT US</a></li>
             </ul>
         </nav>
-    </div> <!-- end of nav wrapper-->
+        </div><!-- end of navigation wrapper --> 
 
 
     <div id="contentWrapper">

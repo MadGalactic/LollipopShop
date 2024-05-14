@@ -1,43 +1,20 @@
 @media only screen and (min-width: 641px) {
 
-/* NAVIGATION */
 
-#navWrapper {
-    padding: 0;
-}
 
-button#showPhoneNav {
-    display: none;
-}
 
-nav ul {
-    display: block!important;
-    /*  remove phone effects */
-    padding: 0;
-    margin: 0 0 0 2%;
-    border: none;
-    border-radius: 0;
-    background-color: transparent;
-    border-left: 1px solid rgba(0,0,0,0.5);
 
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    border: none;
-    padding: 1em 1.5em;
-    font-weight: 300;
-    font-size:.9em;
-    border-right: 1px solid rgba(0,0,0,0.2);
-}
-
-nav ul li.active a {
-    color: #878E88;
-    font-weight: 500;
-    background-color: #A0D2DB;
-}
-
-} /*end of the media query */
+    /*---------- NAVIGATION -----------*/
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    } /*end of the media query */
