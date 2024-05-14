@@ -14,17 +14,24 @@
 <link href="stylesheets/phone-default.css" rel="stylesheet">
 <link href="stylesheets/tablet.css" rel="stylesheet">
 <link href="stylesheets/desktop.css" rel="stylesheet">
+<link href="stylesheets/mobilemenu.css" rel="stylesheet">
 
 <!-- TELLS PHONE NOT TO LIE ABOUT THEIR WIDTH 
     ** Removing maximum-scale=1 will allow users to zoom in on the webpage. 
     Allowing users to zoom will force them to read horizontally to see all content. 
     Best to design in a way that users don't even have to zoom in ** -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 <!-- Latest version of jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-<!-- LOAD THE SCRIPT FOR THE OPTION?SELECT -->
-<script src="js/optionSelectMenu.js"></script>
+<script>
+	$(document).ready(function(){
+		$(".nav-button").click(function () {
+		$(".nav-button,.primary-nav").toggleClass("open");
+		});    
+	});
+</script>
 
 <!-- ***** SCRIPT TO HELP OLD IE UNDERSTAND HTML5 AND MEDIA QUERIES -->
 <!--[if lt IE 9]>
@@ -48,7 +55,7 @@
 
     <div id="navWrapper">
         <nav>
-            <ul class="clearfix">
+            <ul class="clearfix primary-nav">
                 <li class="active"><a href="index.html">SPECIALS</a></li>
                 <li><a href="flavors.html">FLAVORS</a>
                 <ul>
@@ -60,6 +67,7 @@
                 <li><a href="schedule.html">SCHEDULE A PARTY</a></li>
                 <li><a href="store.html">CONTACT US</a></li>
             </ul>
+            <button class="nav-button">Toggle Button</button>
         </nav>
         </div><!-- end of navigation wrapper --> 
 

@@ -33,23 +33,7 @@ header h2 {
 
 /* NAVIGATION */
 
-#navWrapper {
-    background-color: #FFEBE7;
-}
 
-nav {
-    padding: .3em 0;
-}
-
-nav ul {
-    display: none;
-}
-
-nav select {
-    display: block;
-    margin: 0 2%;
-    width: 96%;
-}
 
 /*----- FOOTER -----*/
  #footerWrapper {
