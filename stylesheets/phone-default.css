@@ -33,7 +33,7 @@ header h2 {
 
 
 /* NAV STUFF */
-#navWrapper {
+/* #navWrapper {
     background-color: #FAF3DD;
 }
 
@@ -64,7 +64,10 @@ nav ul li.active a {
 }
 
 /*----- FOOTER -----*/
-#footerWrapper {background-color: #FFEBE7;}
+ #footerWrapper {
+    background-color: #FFEBE7;
+}
+
 footer {
 	clear: both;
 	font-size: .7em;
@@ -72,11 +75,13 @@ footer {
 	text-align: center;
 	padding: .6em;
 }
-footer a {color: #fff;}
+footer a {
+    color: #fff;
+}
 
 /* ----- OTHER STUFF ----*/
-.clearfix:after {
+/* .clearfix:after {
     content: "";
     display: table;
     clear: both;
-  }
+  } */

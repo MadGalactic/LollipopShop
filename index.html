@@ -23,6 +23,9 @@
 <!-- Latest version of jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
+<!-- SCRIPT TO MAKE PHONE NAVIGATION WORK -->
+<script src="js/hideMenu.js"></script>
+
 <!-- ***** SCRIPT TO HELP OLD IE UNDERSTAND HTML5 AND MEDIA QUERIES -->
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -35,15 +38,17 @@
 
     <div id="headerWrapper">
     <header>
-        <h1> Cute Candy Shop</h1>
+        <h1>Molly's Lolly's</h1>
         <h2>Helping you start each day with a sugar fix</h2>
     </header>
     </div> <!-- end of header wrapper-->
 
+
     <div id="navWrapper">
         <nav>
-            <ul class="clearfix">
-                <li><a href="index.html">SPECIALS</a></li>
+            <button id="showPhoneNav">Show Navigation</button>
+            <ul id="myNav">
+                <li class="active"><a href="index.html">SPECIALS</a></li>
                 <li><a href="flavors.html">FLAVORS</a></li>
                 <li><a href="schedule.html">SCHEDULE A PARTY</a></li>
                 <li><a href="store.html">CONTACT US</a></li>
@@ -51,17 +56,20 @@
         </nav>
     </div> <!-- end of nav wrapper-->
 
+
     <div id="contentWrapper">
         <div class="row">
             <p>Rhoncus turpis, parturient lectus magna enim velit aliquet aliquam. Et duis? Mauris sed odio! Purus, ut phasellus, mauris, integer est cum, placerat, in nec ridiculus, turpis nec ac. Vel! Et tristique penatibus augue nisi, sociis, platea vut aliquet, non odio mauris risus odio nascetur elit elementum sed, nisi integer tincidunt eros odio sit. Adipiscing ultricies dictumst cras nisi sagittis purus lundium enim pellentesque, adipiscing dolor! Penatibus dignissim cursus amet elementum penatibus porttitor et quis lorem nisi hac turpis amet tempor, penatibus! Magnis phasellus cursus dictumst mattis, a vel rhoncus ultricies porttitor, pulvinar turpis in sociis vut est sit sagittis? Scelerisque proin? Turpis adipiscing rhoncus dolor, proin platea. Sed turpis penatibus? Vel augue in montes non odio augue vel montes.</p>
         </div>
     </div> <!-- end of content wrapper-->
 
+
     <div id="footerWrapper">
         <footer>
-            <p> Copyright &copy; 2014  &bull; Your Lollipop Shop &bull;  123 W. Sugar Street &bull; 1-800-555-1234</p>
+            <p> Copyright &copy; 2024  &bull; Molly's Lolly's &bull;  123 W. Sugar Street &bull; 1-800-555-1234</p>
         </footer>
     </div> <!-- end of footer wrapper-->
+
 
 </body>
 </html>
