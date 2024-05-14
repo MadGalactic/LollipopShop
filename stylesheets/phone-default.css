@@ -31,6 +31,53 @@ header h2 {
 	margin-top: .75em;
 }
 
+/* NAVIGATION */
+#navWrapper {
+    background-color: #FFEBE7;
+    padding: .75em 2%;
+}
+
+ul#myNav {
+    display: none;
+}
+
+button#showPhoneNav {
+    color: #878E88;
+    font-weight: 500;
+    display: block;
+    border: 1px solid #F5DC00;
+    border-radius: 1.5em;
+    background-color: #FFF7AD;
+    width: 100%;
+    padding: .75em 0;
+}
+
+nav ul {
+    border: 1px #ccc solid;
+    border-radius: .5em;
+    margin: .5em 2%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+nav ul li a {
+    display:block;
+    text-align: center;
+    padding: .6em;
+    border-top: 1px #ccc solid;
+    color: #000;
+    text-decoration: none;
+    font-weight: 700px;
+}
+
+/* removes the line added from the border-top element above */
+nav ul li:first-child a{
+    border-top: none;
+}
+
+nav ul li.active a {
+    color: #A0D2DB;
+}
+
 
 /* NAV STUFF */
 /* #navWrapper {
@@ -80,8 +127,8 @@ footer a {
 }
 
 /* ----- OTHER STUFF ----*/
-/* .clearfix:after {
+.clearfix:after {
     content: "";
     display: table;
     clear: both;
-  } */
+  }
