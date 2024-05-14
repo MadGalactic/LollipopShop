@@ -9,11 +9,16 @@
      
      
      /*---------- NAVIGATION -----------*/
-     
+     nav ul li a {
+          transition: background 0.3s linear;
+     }
           
+     nav ul li a:hover {
+          background-color: rgba(0,0,0,0.2);
+          color: white;
+     }
           
-          
-          
+           
           
           
           

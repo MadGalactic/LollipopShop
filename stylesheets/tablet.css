@@ -6,15 +6,60 @@
 
     /*---------- NAVIGATION -----------*/
     
+    nav select {
+        display: none;
+    }
+
+    nav {
+        padding: 0;
+    }
         
+    nav ul {
+        display:block;
+        margin-left: 2%;
+        border-left: solid 1px rgba(0,0,0,0.3)
+    }
+        /* main menu items float side by side */
         
+    nav ul li {
+        float: left;
+    }
+    
+    nav ul li a {
+        display: block;
+        color: #ccc;
+        text-decoration: none;
+        border-right: solid 1px rgba(0,0,0,0.3);
+        font-size: .9em;
+        font-weight: 500;
+        padding: .7em .9em;
+    }
+
+    /*  adding the > symbol applies the styling only to the first immediate child and no subchildren  */
+    nav ul li.active > a {
+        background-color:#F8EFB4;
+    }
+
+    /* rules for submenu items */
+
+nav ul li ul {
+    z-index: 99;
+    position: absolute;
+    margin: 0;
+    left: -999em;
+    width: 10em;
+    background-color: #D7EDFE;
+}
+
+nav ul li ul li {
+    float: none;
+    border-bottom: solid 1px rgba(0,0,0,0.3);
+    border-right: none;
+}
         
-        
-        
-        
-        
-        
-        
+ nav li:hover ul {
+    left: auto; /* put it back inline with the parent*/
+ }       
     
     
-    } /*end of the media query */
+} /*end of the media query */
