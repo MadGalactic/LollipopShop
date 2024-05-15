@@ -7,6 +7,32 @@
     
     
     /*-----CONTENT -----*/
+
+
+    /*----- COLUMNS -----*/
+    .column-6, .column-4, .column-3 {
+        width: 50%;
+        float: left;
+    }
+
+    .column-2 {
+        width: 33.33333%;
+    
+    }
+
+    .column-3 {
+        width: 25%;
+    
+    }
+
+    .column-4 {
+        width: 33.33333%;
+    }
+
+    .column-6 {
+        width: 50%;
+    
+    }
     
     
     
