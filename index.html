@@ -1,92 +1,114 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Molly's Lolli's</title>
+<meta charset="utf-8">
 
-<!-- Google Font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;700&display=swap" rel="stylesheet">
+<!-- This start file was built by Paul Cheney  -->
+<title>Lollipop Shop: Specials</title>
 
-<!-- Stylesheets -->
-<link href="stylesheets/reset.css" rel="stylesheet">
-<link href="stylesheets/phone-default.css" rel="stylesheet">
-<link href="stylesheets/tablet.css" rel="stylesheet">
-<link href="stylesheets/desktop.css" rel="stylesheet">
-<link href="stylesheets/mobilemenu.css" rel="stylesheet">
-
-<!-- TELLS PHONE NOT TO LIE ABOUT THEIR WIDTH 
-    ** Removing maximum-scale=1 will allow users to zoom in on the webpage. 
-    Allowing users to zoom will force them to read horizontally to see all content. 
-    Best to design in a way that users don't even have to zoom in ** -->
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<!-- Latest version of jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-<script>
-	$(document).ready(function(){
-		$(".nav-button").click(function () {
-		$(".nav-button,.primary-nav").toggleClass("open");
-		});    
-	});
-</script>
 
-<!-- ***** SCRIPT TO HELP OLD IE UNDERSTAND HTML5 AND MEDIA QUERIES -->
+<!-- LOAD THE LATEST VERSION OF JQUERY-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+
+<!-- *************** LOAD THE GOOGLE FONT ****************** -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+
+
+
+<!-- *************** STYLE SHEETS ****************** -->
+<link href="stylesheets/reset.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="stylesheets/phone-default.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="stylesheets/tablet.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="stylesheets/desktop.css" rel="stylesheet">
+
+
+
+
+
+    
+    
+
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
-
+     
+     
+     
 </head>
-
 <body>
-    <div id="colorbar"></div>
+<div id="colorbar"></div><!-- end color bar -->
 
-    <div id="headerWrapper">
-    <header>
-        <hgroup>
-        <h1>Molly's Lolly's</h1>
-        <h2>Helping you start each day with a sugar fix</h2>
-    </hgroup>
-    </header>
-    </div> <!-- end of header wrapper-->
+<div id="headerWrapper">
+<header class="clearfix">
+	
+<hgroup>
+    <h1>Your Lollipop Shop</h1>
+    <h2>Helping you start every day with a surgar fix.</h2>
+</hgroup>
+	
 
+	
+</header>
+</div><!-- end of header wrapper -->  
+    
+    
+    
+    
+    
 
-    <div id="navWrapper">
-        <nav>
-            <ul class="clearfix primary-nav">
-                <li class="active"><a href="index.html">SPECIALS</a></li>
-                <li class="parent"><a href="flavors.html">FLAVORS</a>
-                <ul>
-                    <li><a href="flavor.html#straw">Strawberry</a></li>
-                    <li><a href="flavor.html#orange">Orange</a></li>
-                    <li><a href="flavor.html#lemon">Lemon</a></li>
-                    </ul>
-                </li>
-                <li><a href="schedule.html">SCHEDULE A PARTY</a></li>
-                <li><a href="store.html">CONTACT US</a></li>
-            </ul>
-            <button class="nav-button">Toggle Button</button>
-        </nav>
-        </div><!-- end of navigation wrapper --> 
+	
+<div id="navWrapper">
+<nav class="nav ">
+    <ul class="primary-nav clearfix">
+        <li class="selected"><a href="index.html">OUR <br>SPECIALS</a></li>
+        <li><a href="who.html">WHO<br> WE ARE </a></li>
+        <li><a what="store.html">WHAT<br> WE DO </a></li>
+        <li><a href="contact.html">CONTACT<br> US </a></li>
+    </ul>
 
+</nav>
+</div><!-- end of navigation wrapper -->  
+    
 
-    <div id="contentWrapper">
-        <div class="row">
-            <h1>SPECIALS</h1>
-            <p>Rhoncus turpis, parturient lectus magna enim velit aliquet aliquam. Et duis? Mauris sed odio! Purus, ut phasellus, mauris, integer est cum, placerat, in nec ridiculus, turpis nec ac. Vel! Et tristique penatibus augue nisi, sociis, platea vut aliquet, non odio mauris risus odio nascetur elit elementum sed, nisi integer tincidunt eros odio sit. Adipiscing ultricies dictumst cras nisi sagittis purus lundium enim pellentesque, adipiscing dolor! Penatibus dignissim cursus amet elementum penatibus porttitor et quis lorem nisi hac turpis amet tempor, penatibus! Magnis phasellus cursus dictumst mattis, a vel rhoncus ultricies porttitor, pulvinar turpis in sociis vut est sit sagittis? Scelerisque proin? Turpis adipiscing rhoncus dolor, proin platea. Sed turpis penatibus? Vel augue in montes non odio augue vel montes.</p>
-        </div> <!-- end row div -->
-    </div> <!-- end of content wrapper-->
+    
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+<div id="contentWrapper">
+    <div class="row">
+            <div class="column-12">
+                <h1>OUR SPECIALS</h1>
 
+            </div> <!-- end column-->
+        
+    </div> <!-- end row-->
+</div><!-- end of content wrapper -->  
+    
+    
+    
+<div id="footerWrapper">
+    <footer>
+    <p> Copyright &copy; 2014  &bull; Your Lollipop Shop &bull;  123 W. Sugar Street &bull; 1-800-555-1234</p>
+    </footer>
+</div><!-- end of footer wrapper -->  
 
-    <div id="footerWrapper">
-        <footer>
-            <p> Copyright &copy; 2024  &bull; Molly's Lolly's &bull;  123 W. Sugar Street &bull; 1-800-555-1234</p>
-        </footer>
-    </div> <!-- end of footer wrapper-->
-
-
+       
+ 
 </body>
 </html>
