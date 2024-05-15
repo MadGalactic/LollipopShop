@@ -4,12 +4,23 @@ html {-webkit-text-size-adjust: none;
 * {box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;  }
 
 }
+/*-----BODY -----*/
 
 body {
         font-family: "Mukta", sans-serif;
         font-size: 16px;
         font-weight: 400;
         font-style: normal; 
+}
+
+/*----- COLOR BAR -----*/
+#colorbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 44px;
+    background-color: #f8efb4;
+    width: 100%;
 }
 
 /*-----HEADER -----*/
