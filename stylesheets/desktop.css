@@ -17,13 +17,17 @@
      
      
      /*-----NAVIGATION -----*/	
-     nav ul {padding-left: 1%;}
      nav ul li a:hover{text-decoration:underline;}
      nav ul li {width: auto;}
      nav ul li a {padding: .2em 1.5em;}
      
           
-          
+        /*----- Banner -----*/
+     #banner {
+	background-image: url(../images/hero-desktop.png);
+	height: 500px;
+     background-position: center;
+}
           
      
      /*-----CONTENT -----*/
@@ -31,10 +35,7 @@
      
      
           
-      /*----- COLUMNS -----*/
-     .column-2 {
-          width: 16.66%;
-      }
+          
      
      
      

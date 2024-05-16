@@ -86,46 +86,25 @@ nav ul li:last-child a {
 #contentWrapper  {
 	background-color: #fff;
 }
-
 #contentWrapper .row:after {
-    content: "";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
-
 #contentWrapper h1 {
 	color:#e22121;
 	font-size: 2em;
 	padding-top: 1em;
 	text-shadow: 1px 1px 2px #999;
 }
-
-
-
-/* ----- COLUMNS ----- */
-.column-12, .column-6, .column-4, .column-3, .column-2 {
-    padding: .5em 2%;
+#contentWrapper p {
+	line-height: 130%;
 }
 
-.column-2 {
-    width: 50%;
-    float: left;
-}
-
-.column-2 img {
-    width: 100%;
-}
-
-.color-1, .color-2 {
-    padding: 1em 1em .5em 1em;
-}
-
-.color-1 {
-    background-color: #f9f8c1;
-}
-
-.color-2 {
-    background-color: #ffddc1;
+/*----- 12 COLUMN LAYOUT -----*/
+.column-3, .column-4, .column-6, .column-9, .column-12 {
+	width: 100%;
+	padding: .5em 2%;
 }
 
 
@@ -137,12 +116,34 @@ nav ul li:last-child a {
 
 
 
+/*----- Banner -----*/
+#banner {
+	background-image: url(../images/heroPhone.png);
+	background-repeat:no-repeat;
+	background-color: #fff;
+	height: 200px;
+}
 
 
 
+/*----- PHOTO STYLING -----*/
+figure.col4 {
+	width: 48%;
+	margin-left: 2%;
+	float: right;
+	border: 1px solid #999;
 
+}
 
+figcaption {
+	text-align: center;
+	font-size: .8em;
+	padding: .3em 0;
+}
 
+figure.col4 img {
+	width: 100%;
+}
 
 
 /*----- FOOTER -----*/
